@@ -1,10 +1,22 @@
+# Modified lightweight OpenPose for project at NTNU
+Project done in collaboration with [zikoat (Sigurd Schoeler)](https://github.com/zikoat) for the course [IMT3017](https://www.ntnu.edu/studies/courses/IMT3017#tab=omEmnet) at NTNU. Fork of [lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) made by [Daniil-Osokin](https://github.com/Daniil-Osokin) (original readme below) and adapted for our project namely pose estimation on pigs.
+
+
+## Testing the model
+There is included a pretrained model and a example image in the scripts folder. To run the pretrained model on the example image just run the make command below. The output image is saved in the scripts folder. 
+```
+make visualize
+```
+
+## Training the model
+To train the model one needs access to the data created in collaboration with Norsvin. This is not freely available, contact `oyvind.nordbo *special at email sign* norsvin.no` for details. 
+
+-------
+
+
 # Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose
 
 This repository contains training code for the paper [Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf). This work heavily optimizes the [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) approach to reach real-time inference on CPU with negliable accuracy drop. It detects a skeleton (which consists of keypoints and connections between them) to identify human poses for every person inside the image. The pose may contain up to 18 keypoints: ears, eyes, nose, neck, shoulders, elbows, wrists, hips, knees, and ankles. On COCO 2017 Keypoint Detection validation set this code achives 40% AP for the single scale inference (no flip or any post-processing done). The result can be reproduced using this repository. *This repo significantly overlaps with https://github.com/opencv/openvino_training_extensions, however contains just the necessary code for human pose estimation.*
-
-<p align="center">
-  <img src="data/preview.jpg" />
-</p>
 
 :fire: Check out our [new work](https://github.com/Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch) on accurate (and still fast) single-person pose estimation, which ranked 10<sup>th</sup> on CVPR'19 [Look-Into-Person](http://47.100.21.47:9999/index.php) challenge.
 
