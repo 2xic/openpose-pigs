@@ -9,7 +9,7 @@ make visualize
 ```
 
 ## Training the model
-The training data is not publicly available, but access can be given if you send a request to `oyvind.nordbo@norsvin.no`.
+The training data is not publicly available, but access can be given if you send a reasonable request to `oyvind.nordbo@norsvin.no`.
 
 -------
 
