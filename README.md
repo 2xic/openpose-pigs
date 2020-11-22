@@ -9,7 +9,7 @@ make visualize
 ```
 
 ## Training the model
-To train the model one needs access to the data created in collaboration with Norsvin. This is not freely available, contact `oyvind.nordbo *special at email sign* norsvin.no` for details. 
+The training data is not publicly available, but access can be given if you send a reasonable request to `oyvind.nordbo@norsvin.no`.
 
 -------
 
