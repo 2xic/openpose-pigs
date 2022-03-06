@@ -1,6 +1,7 @@
 # Modified lightweight OpenPose for project at NTNU
 Project done in collaboration with [zikoat (Sigurd Schoeler)](https://github.com/zikoat) for the course [IMT3017](https://www.ntnu.edu/studies/courses/IMT3017#tab=omEmnet) at NTNU. Fork of [lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) made by [Daniil-Osokin](https://github.com/Daniil-Osokin) (original readme below) and adapted for our project namely pose estimation on pigs.
 
+_Update 2022: Our supervisor presented some of this work at [IS&T](https://www.imaging.org/site/IST/IST/Conferences/EI/EI_2022/Conference/C_IRIACV.aspx#IRIACV-276)_
 
 ## Testing the model
 There is included a pretrained model and a example image in the scripts folder. To run the pretrained model on the example image just run the make command below. The output image is saved in the scripts folder. 
